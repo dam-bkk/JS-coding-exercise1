@@ -1,8 +1,10 @@
 //The Farm Problem
 
-function LegsAnimals(chickens, cows, pigs) {
-	const LegChickens = chickens *2;
-	const LegsCows = cows *4;
-	const LegsPigs = pigs *4;
-	return LegsAnimals = LegsChickens + LegsCows + LegsPigs;
+function animals(chickens, cows, pigs) {
+
+	const legsChickens = chickens *2;
+	const legsCows = cows *4;
+	const legsPigs = pigs *4;
+	const totalLegs = legsChickens + legsCows + legsPigs;
+	return totalLegs;
 }
